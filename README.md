@@ -22,15 +22,21 @@ Before running the script, ensure you have the following dependencies installed:
 
 ## Installation
 1. Clone the repository:
-```Copygit clone https://github.com/yourusername/website-crawler.git```
-```cd website-crawler```
+```bash
+git clone https://github.com/yourusername/website-crawler.git
+cd website-crawler
+```
 
 2. Install the required dependencies:
-```Copypip install requests beautifulsoup4 reportlab```
+```bash
+pip install requests beautifulsoup4 reportlab
+```
 
 ## Usage
 Run the script from the command line:
-```bashCopypython website_crawler.py```
+```bash
+python website_crawler.py
+```
 
 When prompted, provide:
 - The base URL of the website you want to crawl
@@ -38,9 +44,11 @@ When prompted, provide:
 - Maximum link depth to follow (default: 3)
 
 ## Example
-```CopyEnter the homepage URL to crawl and convert to PDF: https://example.com```
-```Maximum number of pages to crawl (default 50): 30```
-```Maximum link depth to follow (default 3): 2```
+```
+Enter the homepage URL to crawl and convert to PDF: https://example.com
+Maximum number of pages to crawl (default 50): 30
+Maximum link depth to follow (default 3): 
+```
 
 The script will:
 1. Crawl the specified website
@@ -60,13 +68,13 @@ You can modify the ```WebsiteCrawler``` class to:
 - Respects a simple rate limit (1-second delay between requests)
 
 ## Dependencies
-```os```: File and path operations
-```requests```: HTTP requests
-```BeautifulSoup```: HTML parsing
-```reportlab```: PDF generation
-```urllib.parse```: URL handling
-```re```: Regular expression operations
-```time```: Crawl rate limiting
+- ```os```: File and path operations
+- ```requests```: HTTP requests
+- ```BeautifulSoup```: HTML parsing
+- ```reportlab```: PDF generation
+- ```urllib.parse```: URL handling
+- ```re```: Regular expression operations
+- ```time```: Crawl rate limiting
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -74,6 +82,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 Licensed under the MIT License - see MIT License for details.
 
-[!NOTE]
-## Disclaimer
+>[!NOTE]
 This tool is for educational and research purposes. Always respect website terms of service and robots.txt guidelines when crawling websites.
