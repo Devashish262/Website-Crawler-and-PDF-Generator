@@ -1,7 +1,5 @@
 # Website-Crawler-and-PDF-Generator
 
-## Website-Crawler-and-PDF-Generator
-
 ## Overview
 This Python script is a powerful web crawling tool that allows you to scrape website content and generate a comprehensive PDF document of the crawled pages. It provides a flexible way to extract and preserve web content from a given website.
 
