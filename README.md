@@ -5,6 +5,9 @@
 ## Overview
 This Python script is a powerful web crawling tool that allows you to scrape website content and generate a comprehensive PDF document of the crawled pages. It provides a flexible way to extract and preserve web content from a given website.
 
+![image](https://github.com/user-attachments/assets/3e4d6b75-cd12-420e-9139-59e024fa3f9a)
+
+
 ## Features
 - Crawl websites with customizable depth and page limits
 - Extract clean text content from web pages
